@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="searchable" value="Nokia"/>
+  <listeners>
+    <listener class-name="com.amazon.Transform"/>
+  </listeners>
+  <test thread-count="1" name="Test1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.amazon.NewTest">
+        <methods>
+          <include name="search" invocation-numbers="0 0"/>
+          <include name="buyNow"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="wHandling"/>
+          <include name="nokia105"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.amazon.NewTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
