@@ -1,1 +1,1 @@
-file is updated in master
+file is updated in master. Code is updated for conflicts
