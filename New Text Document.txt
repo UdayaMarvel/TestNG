@@ -1,0 +1,7 @@
+New file
+
+"checking out branch"
+
+"without update" conflicts"
+
+
