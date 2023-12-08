@@ -92,6 +92,7 @@ public class MobilePurchase {
 		  WebElement nokia2 = w.findElement(By.xpath("//h1[contains(text(),'Nokia Nokia105')]"));
 		  String nokiaout = nokia2.getText();
 		  Assert.assertEquals(nokia105Mobile, nokiaout);
+		  System.out.println("Update By Me");
 	  }
 	  @Test(priority =5,groups = "sanity")
 	  public void broke() {
